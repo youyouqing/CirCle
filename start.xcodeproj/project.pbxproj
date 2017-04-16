@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D91BAFA1EA38C5C00531BB0 /* CireCleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D91BAF91EA38C5C00531BB0 /* CireCleView.m */; };
+		6D91BB001EA3A30100531BB0 /* CStrokrLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D91BAFF1EA3A30100531BB0 /* CStrokrLayer.m */; };
+		6D91BB021EA3B29B00531BB0 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D91BB011EA3B29B00531BB0 /* 120.png */; };
 		6DB091C81E82BA27007817A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB091C71E82BA27007817A0 /* main.m */; };
 		6DB091CB1E82BA27007817A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB091CA1E82BA27007817A0 /* AppDelegate.m */; };
 		6DB091CE1E82BA27007817A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB091CD1E82BA27007817A0 /* ViewController.m */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D91BAF81EA38C5C00531BB0 /* CireCleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CireCleView.h; sourceTree = "<group>"; };
+		6D91BAF91EA38C5C00531BB0 /* CireCleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CireCleView.m; sourceTree = "<group>"; };
+		6D91BAFE1EA3A30100531BB0 /* CStrokrLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CStrokrLayer.h; path = ../CStrokrLayer.h; sourceTree = "<group>"; };
+		6D91BAFF1EA3A30100531BB0 /* CStrokrLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CStrokrLayer.m; path = ../CStrokrLayer.m; sourceTree = "<group>"; };
+		6D91BB011EA3B29B00531BB0 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
 		6DB091C31E82BA27007817A0 /* start.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = start.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB091C71E82BA27007817A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DB091C91E82BA27007817A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +70,11 @@
 				6DB091CA1E82BA27007817A0 /* AppDelegate.m */,
 				6DB091CC1E82BA27007817A0 /* ViewController.h */,
 				6DB091CD1E82BA27007817A0 /* ViewController.m */,
+				6D91BAF81EA38C5C00531BB0 /* CireCleView.h */,
+				6D91BAF91EA38C5C00531BB0 /* CireCleView.m */,
+				6D91BAFE1EA3A30100531BB0 /* CStrokrLayer.h */,
+				6D91BB011EA3B29B00531BB0 /* 120.png */,
+				6D91BAFF1EA3A30100531BB0 /* CStrokrLayer.m */,
 				6DB091CF1E82BA27007817A0 /* Main.storyboard */,
 				6DB091D21E82BA27007817A0 /* Assets.xcassets */,
 				6DB091D41E82BA27007817A0 /* LaunchScreen.storyboard */,
@@ -138,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB091D61E82BA27007817A0 /* LaunchScreen.storyboard in Resources */,
+				6D91BB021EA3B29B00531BB0 /* 120.png in Resources */,
 				6DB091D31E82BA27007817A0 /* Assets.xcassets in Resources */,
 				6DB091D11E82BA27007817A0 /* Main.storyboard in Resources */,
 			);
@@ -150,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D91BB001EA3A30100531BB0 /* CStrokrLayer.m in Sources */,
 				6DB091CE1E82BA27007817A0 /* ViewController.m in Sources */,
 				6DB091CB1E82BA27007817A0 /* AppDelegate.m in Sources */,
+				6D91BAFA1EA38C5C00531BB0 /* CireCleView.m in Sources */,
 				6DB091C81E82BA27007817A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +325,7 @@
 				6DB091DC1E82BA27007817A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
