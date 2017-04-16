@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DoubleWaves.h"
+#import "KView.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *bg;
 
+@property (weak, nonatomic) IBOutlet UIView *bg1;
+@property (nonatomic, strong) DoubleWaves *wavesView;
 
 @end
 

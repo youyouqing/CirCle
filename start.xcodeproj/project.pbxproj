@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0EE5AE1EA3E19A00C859BF /* MAline.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EE5AD1EA3E19A00C859BF /* MAline.m */; };
+		6D0EE5B11EA3E1EF00C859BF /* KView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EE5B01EA3E1EF00C859BF /* KView.m */; };
 		6D91BAFA1EA38C5C00531BB0 /* CireCleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D91BAF91EA38C5C00531BB0 /* CireCleView.m */; };
 		6D91BB001EA3A30100531BB0 /* CStrokrLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D91BAFF1EA3A30100531BB0 /* CStrokrLayer.m */; };
 		6D91BB021EA3B29B00531BB0 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D91BB011EA3B29B00531BB0 /* 120.png */; };
+		6D91BB051EA3CDA600531BB0 /* DoubleWaves.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D91BB041EA3CDA600531BB0 /* DoubleWaves.m */; };
 		6DB091C81E82BA27007817A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB091C71E82BA27007817A0 /* main.m */; };
 		6DB091CB1E82BA27007817A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB091CA1E82BA27007817A0 /* AppDelegate.m */; };
 		6DB091CE1E82BA27007817A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB091CD1E82BA27007817A0 /* ViewController.m */; };
@@ -19,11 +22,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D0EE5AC1EA3E19A00C859BF /* MAline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAline.h; sourceTree = "<group>"; };
+		6D0EE5AD1EA3E19A00C859BF /* MAline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAline.m; sourceTree = "<group>"; };
+		6D0EE5AF1EA3E1EF00C859BF /* KView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KView.h; sourceTree = "<group>"; };
+		6D0EE5B01EA3E1EF00C859BF /* KView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KView.m; sourceTree = "<group>"; };
 		6D91BAF81EA38C5C00531BB0 /* CireCleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CireCleView.h; sourceTree = "<group>"; };
 		6D91BAF91EA38C5C00531BB0 /* CireCleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CireCleView.m; sourceTree = "<group>"; };
 		6D91BAFE1EA3A30100531BB0 /* CStrokrLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CStrokrLayer.h; path = ../CStrokrLayer.h; sourceTree = "<group>"; };
 		6D91BAFF1EA3A30100531BB0 /* CStrokrLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CStrokrLayer.m; path = ../CStrokrLayer.m; sourceTree = "<group>"; };
 		6D91BB011EA3B29B00531BB0 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		6D91BB031EA3CDA600531BB0 /* DoubleWaves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleWaves.h; sourceTree = "<group>"; };
+		6D91BB041EA3CDA600531BB0 /* DoubleWaves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleWaves.m; sourceTree = "<group>"; };
 		6DB091C31E82BA27007817A0 /* start.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = start.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB091C71E82BA27007817A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DB091C91E82BA27007817A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +79,12 @@
 				6DB091CA1E82BA27007817A0 /* AppDelegate.m */,
 				6DB091CC1E82BA27007817A0 /* ViewController.h */,
 				6DB091CD1E82BA27007817A0 /* ViewController.m */,
+				6D0EE5AC1EA3E19A00C859BF /* MAline.h */,
+				6D0EE5AD1EA3E19A00C859BF /* MAline.m */,
+				6D0EE5AF1EA3E1EF00C859BF /* KView.h */,
+				6D0EE5B01EA3E1EF00C859BF /* KView.m */,
+				6D91BB031EA3CDA600531BB0 /* DoubleWaves.h */,
+				6D91BB041EA3CDA600531BB0 /* DoubleWaves.m */,
 				6D91BAF81EA38C5C00531BB0 /* CireCleView.h */,
 				6D91BAF91EA38C5C00531BB0 /* CireCleView.m */,
 				6D91BAFE1EA3A30100531BB0 /* CStrokrLayer.h */,
@@ -164,11 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0EE5B11EA3E1EF00C859BF /* KView.m in Sources */,
 				6D91BB001EA3A30100531BB0 /* CStrokrLayer.m in Sources */,
+				6D91BB051EA3CDA600531BB0 /* DoubleWaves.m in Sources */,
 				6DB091CE1E82BA27007817A0 /* ViewController.m in Sources */,
 				6DB091CB1E82BA27007817A0 /* AppDelegate.m in Sources */,
 				6D91BAFA1EA38C5C00531BB0 /* CireCleView.m in Sources */,
 				6DB091C81E82BA27007817A0 /* main.m in Sources */,
+				6D0EE5AE1EA3E19A00C859BF /* MAline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
