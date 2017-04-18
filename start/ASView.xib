@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AS">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="411"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEQ-xN-y1v">
+                    <subviews>
+                        <button opaque="NO" tag="2000" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aau-8W-CBH">
+                            <frame key="frameInset" minX="92" minY="126" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.65984164322814398" blue="0.30726573892203313" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="q:" destination="iN0-l3-epB" eventType="touchUpInside" id="eNy-JD-Sy5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUe-B8-EbH">
+                            <frame key="frameInset" minX="228" minY="126" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.65984164320000005" blue="0.30726573889999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="d:" destination="iN0-l3-epB" eventType="touchUpInside" id="9lE-Hp-l11"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zow-Av-cIn">
+                            <frame key="frameInset" minX="150" minY="126" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.65984164320000005" blue="0.30726573889999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="S:" destination="iN0-l3-epB" eventType="touchUpInside" id="ETX-W3-exW"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1233334444" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vHk-F7-h3U">
+                    <frame key="frameInset" minX="88" minY="287" width="205" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.40014908710000002" blue="0.27004142959999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bEQ-xN-y1v" secondAttribute="bottom" constant="146" id="JlZ-Kj-r30"/>
+                <constraint firstItem="bEQ-xN-y1v" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="85" id="NSm-wf-hb9"/>
+                <constraint firstItem="bEQ-xN-y1v" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="14" id="dPA-tI-GIE"/>
+                <constraint firstAttribute="trailing" secondItem="bEQ-xN-y1v" secondAttribute="trailing" constant="16" id="xJ1-f5-OYC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="sc" destination="bEQ-xN-y1v" id="x1W-sM-6gB"/>
+                <outlet property="sssss" destination="vHk-F7-h3U" id="Gj4-ux-hje"/>
+            </connections>
+            <point key="canvasLocation" x="142" y="286.5"/>
+        </view>
+    </objects>
+</document>

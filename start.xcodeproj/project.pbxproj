@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0123301EA64604008CBF38 /* AS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D01232F1EA64604008CBF38 /* AS.m */; };
+		6D0123321EA6460E008CBF38 /* ASView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D0123311EA6460E008CBF38 /* ASView.xib */; };
+		6D0123351EA64A05008CBF38 /* Scoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0123341EA64A05008CBF38 /* Scoller.m */; };
+		6D0123381EA65083008CBF38 /* SSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0123371EA65083008CBF38 /* SSS.m */; };
+		6D01233A1EA6508C008CBF38 /* SSS.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D0123391EA6508C008CBF38 /* SSS.xib */; };
+		6D01233E1EA6520D008CBF38 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D01233C1EA6520D008CBF38 /* TableViewCell.m */; };
+		6D01233F1EA6520D008CBF38 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D01233D1EA6520D008CBF38 /* TableViewCell.xib */; };
 		6D0EE5AE1EA3E19A00C859BF /* MAline.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EE5AD1EA3E19A00C859BF /* MAline.m */; };
 		6D0EE5B11EA3E1EF00C859BF /* KView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EE5B01EA3E1EF00C859BF /* KView.m */; };
 		6D91BAFA1EA38C5C00531BB0 /* CireCleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D91BAF91EA38C5C00531BB0 /* CireCleView.m */; };
@@ -22,6 +29,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D01232E1EA64604008CBF38 /* AS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AS.h; sourceTree = "<group>"; };
+		6D01232F1EA64604008CBF38 /* AS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AS.m; sourceTree = "<group>"; };
+		6D0123311EA6460E008CBF38 /* ASView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASView.xib; sourceTree = "<group>"; };
+		6D0123331EA64A05008CBF38 /* Scoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scoller.h; sourceTree = "<group>"; };
+		6D0123341EA64A05008CBF38 /* Scoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scoller.m; sourceTree = "<group>"; };
+		6D0123361EA65083008CBF38 /* SSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSS.h; sourceTree = "<group>"; };
+		6D0123371EA65083008CBF38 /* SSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSS.m; sourceTree = "<group>"; };
+		6D0123391EA6508C008CBF38 /* SSS.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSS.xib; sourceTree = "<group>"; };
+		6D01233B1EA6520D008CBF38 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		6D01233C1EA6520D008CBF38 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		6D01233D1EA6520D008CBF38 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		6D0EE5AC1EA3E19A00C859BF /* MAline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAline.h; sourceTree = "<group>"; };
 		6D0EE5AD1EA3E19A00C859BF /* MAline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAline.m; sourceTree = "<group>"; };
 		6D0EE5AF1EA3E1EF00C859BF /* KView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KView.h; sourceTree = "<group>"; };
@@ -79,10 +97,21 @@
 				6DB091CA1E82BA27007817A0 /* AppDelegate.m */,
 				6DB091CC1E82BA27007817A0 /* ViewController.h */,
 				6DB091CD1E82BA27007817A0 /* ViewController.m */,
+				6D0123361EA65083008CBF38 /* SSS.h */,
+				6D0123371EA65083008CBF38 /* SSS.m */,
+				6D0123391EA6508C008CBF38 /* SSS.xib */,
+				6D01233B1EA6520D008CBF38 /* TableViewCell.h */,
+				6D01233C1EA6520D008CBF38 /* TableViewCell.m */,
+				6D01233D1EA6520D008CBF38 /* TableViewCell.xib */,
 				6D0EE5AC1EA3E19A00C859BF /* MAline.h */,
 				6D0EE5AD1EA3E19A00C859BF /* MAline.m */,
 				6D0EE5AF1EA3E1EF00C859BF /* KView.h */,
 				6D0EE5B01EA3E1EF00C859BF /* KView.m */,
+				6D0123331EA64A05008CBF38 /* Scoller.h */,
+				6D0123341EA64A05008CBF38 /* Scoller.m */,
+				6D01232E1EA64604008CBF38 /* AS.h */,
+				6D01232F1EA64604008CBF38 /* AS.m */,
+				6D0123311EA6460E008CBF38 /* ASView.xib */,
 				6D91BB031EA3CDA600531BB0 /* DoubleWaves.h */,
 				6D91BB041EA3CDA600531BB0 /* DoubleWaves.m */,
 				6D91BAF81EA38C5C00531BB0 /* CireCleView.h */,
@@ -167,7 +196,10 @@
 			files = (
 				6DB091D61E82BA27007817A0 /* LaunchScreen.storyboard in Resources */,
 				6D91BB021EA3B29B00531BB0 /* 120.png in Resources */,
+				6D01233F1EA6520D008CBF38 /* TableViewCell.xib in Resources */,
 				6DB091D31E82BA27007817A0 /* Assets.xcassets in Resources */,
+				6D01233A1EA6508C008CBF38 /* SSS.xib in Resources */,
+				6D0123321EA6460E008CBF38 /* ASView.xib in Resources */,
 				6DB091D11E82BA27007817A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,9 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0123381EA65083008CBF38 /* SSS.m in Sources */,
+				6D01233E1EA6520D008CBF38 /* TableViewCell.m in Sources */,
+				6D0123301EA64604008CBF38 /* AS.m in Sources */,
 				6D0EE5B11EA3E1EF00C859BF /* KView.m in Sources */,
 				6D91BB001EA3A30100531BB0 /* CStrokrLayer.m in Sources */,
 				6D91BB051EA3CDA600531BB0 /* DoubleWaves.m in Sources */,
+				6D0123351EA64A05008CBF38 /* Scoller.m in Sources */,
 				6DB091CE1E82BA27007817A0 /* ViewController.m in Sources */,
 				6DB091CB1E82BA27007817A0 /* AppDelegate.m in Sources */,
 				6D91BAFA1EA38C5C00531BB0 /* CireCleView.m in Sources */,
